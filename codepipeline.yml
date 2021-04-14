@@ -67,7 +67,7 @@ Resources:
       ServiceRole: !GetAtt CodeBuildServiceRole.Arn
       Source:
         Type: GITHUB
-        Location: 'https://github.com/kavyasonii/awspipeline.git'
+        Location: 'https://github.com/kavyasonii/finals3.git'
         BuildSpec: buildspec.yml
       Artifacts:
         Type: S3
